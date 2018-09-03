@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class GoogleExampleIT extends DriverBase {
+public class GoogleExample extends DriverBase {
 
     private ExpectedCondition<Boolean> pageTitleStartsWith(final String searchString) {
         return driver -> driver.getTitle().toLowerCase().startsWith(searchString.toLowerCase());
